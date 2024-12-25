@@ -6,6 +6,7 @@ document.getElementById("loadpost").addEventListener("click",function(){
     
 function loadposts(username){
     const url= 'https://jsonplaceholder.typicode.com/posts';
+    // const url= 'https://jsonplaceholder.org/users';
 
     fetch(url)
     .then(respone=>{
